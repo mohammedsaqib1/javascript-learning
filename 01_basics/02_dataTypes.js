@@ -16,7 +16,7 @@ let state;                 // undefined
 
 // number(range) => 2 to power 53
 // bigint
-// string => " " or ' '  (prefer " ")
+// string => " "
 // boolean => true/false
 // null => standalone value
 // undefined => (value not assigned)
@@ -26,10 +26,6 @@ let state;                 // undefined
 // object
 
 console.log(typeof "saqib");  // string
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object    
+console.log(typeof undefined); // undefined    /*interview question*/
+console.log(typeof null); // object            /*interview question*/
 
-/*
---interview questions :
-    console.log(typeof null); // object  
-*/
